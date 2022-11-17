@@ -1,12 +1,10 @@
 # Genshin-Automate-Daily-Check-In
 
-Requirements:
-- Google Chrome
-- Batch file
+This batch file automates collecting the daily webpage check-in for Genshin Impact on Google Chrome. 
+https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481 
 
-This batch file automates collecting the daily webpage check-in for Genshin Impact.
-
-In Google Chrome, create a new javascript snippet with the name "dailyauto". 
+How to install: 
+Inside Google Chrome inspect element, create a new javascript snippet named "dailyauto". 
 
 Inside the snippet, paste the following code: 
 
