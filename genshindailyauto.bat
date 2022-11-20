@@ -14,6 +14,10 @@ timeout %timeout%
 %SendKeys% "!dailyauto"
 timeout %timeout%
 %SendKeys% "{ENTER}"
+timeout %timeout%
+timeout %timeout%
+%SendKeys% "^w"
+exit
 
 pause
 goto :EOF
@@ -21,3 +25,4 @@ goto :EOF
 // JScript section
 var WshShell = WScript.CreateObject("WScript.Shell");
 WshShell.SendKeys(WScript.Arguments(0));
+
